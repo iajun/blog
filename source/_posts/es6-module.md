@@ -52,16 +52,11 @@ var me = (function Hello(name) {
 
 ```javascript
 // 1.js
-export default {
-    name: 'mod1'
-};
+let name = 'module1';
 
-// module.js
-import m1 from './1.js';
-m1.name = 'changed name';
+export { name };
 
-// index.js
-import './module.js';
-import m1 from './1.js';
-console.log(m1.name); // changed name
+name = 'changed module1';
+
+// name: changed module1
 ```
