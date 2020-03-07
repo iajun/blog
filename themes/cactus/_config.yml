@@ -14,23 +14,24 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-    home: /
-    # about: /about/
-    articles: /archives/
-    category: /category/
-    tag: /tag/
-    # projects: projects_url
+  home: /
+  # about: /about/
+  articles: /archives/
+  category: /category/
+  tag: /tag/
+  search: /search/
+  # projects: projects_url
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-    github: http://github.com/iajun
-    twitter: /
-    facebook: /
-    linkedin: /
-    mail: iveoname@163.com
+  github: http://github.com/iajun
+  twitter: /
+  facebook: https://www.facebook.com/jiajun.zhou.1293
+  linkedin: /
+  mail: iveoname@163.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -42,9 +43,9 @@ tags_overview: false
 #   - post_count: whether to show only the x most recent posts.
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
-    show_all_posts: false
-    post_count: 5
-    sort_updated: false
+  show_all_posts: false
+  post_count: 10
+  sort_updated: false
 
 # Customize the archive view.
 # Options:
@@ -52,13 +53,13 @@ posts_overview:
 # Note: this does not work together with pagination, since the pagination
 # plugin will sort pages by date of creation.
 archive:
-    sort_updated: false
+  sort_updated: false
 
 # Customize the article view.
 # Options:
 #   - show_updated: show the last modification date.
 post:
-    show_updated: false
+  show_updated: false
 
 ##############################################################################
 # Look and Feel
@@ -72,11 +73,11 @@ post:
 #   - url: where the logo can be found
 #   - gravatar: whether to use your Gravatar as the logo
 logo:
-    enabled: true
-    width: 50
-    height: 50
-    url: /images/logo.png
-    gravatar: false
+  enabled: true
+  width: 50
+  height: 50
+  url: /images/logo.png
+  gravatar: false
 
 # Customize the favicons.
 # Cactus supports a limited set of the three most important icons:
@@ -88,19 +89,19 @@ logo:
 #   - url: where the icon can be found
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
-    desktop:
-        url: /images/favicon.ico
-        gravatar: false
-    android:
-        url: /images/favicon-192x192.png
-        gravatar: false
-    apple:
-        url: /images/apple-touch-icon.png
-        gravatar: false
+  desktop:
+    url: /images/favicon.ico
+    gravatar: false
+  android:
+    url: /images/favicon-192x192.png
+    gravatar: false
+  apple:
+    url: /images/apple-touch-icon.png
+    gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-# highlight: rainbow
+highlight: xcode
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
@@ -119,10 +120,10 @@ rss: false
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
-    fb_app_id:
-    fb_admins:
-    twitter_id:
-    google_plus:
+  fb_app_id:
+  fb_admins:
+  twitter_id:
+  google_plus:
 
 ##############################################################################
 # Plugins
@@ -130,20 +131,20 @@ open_graph:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-    enabled: false
-    shortname: cactus-1
+  enabled: false
+  shortname: cactus-1
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
-    enabled: false
-    id: UA-86660611-1
+  enabled: false
+  id: UA-86660611-1
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
-    enabled: false
-    id: 2e6da3c375c8a87f5b664cea6d4cb29c
+  enabled: false
+  id: 2e6da3c375c8a87f5b664cea6d4cb29c
 
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-    email: iveoname@163.com
+  email: iveoname@163.com
