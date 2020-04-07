@@ -182,6 +182,10 @@ class MyRegExp extends RegExp {
     [Symbol.replace]() {
         // ....
     }
+  
+    [Symbol.split]() {
+      // ...
+    }
 }
 
 "zi".match(new MyRegExp(/zi/))
