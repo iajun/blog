@@ -1,5 +1,5 @@
 ---
-title: preorder-tree.md
+title: Preorder Tree.md
 date: 2020-02-05 12:18:02
 catagories: data-structure
 tags:

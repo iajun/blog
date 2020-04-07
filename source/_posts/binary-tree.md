@@ -1,5 +1,5 @@
 ---
-title: binary-tree
+title: Binary Tree
 date: 2020-01-10 20:27:31
 categories: data-structrue
 tags:

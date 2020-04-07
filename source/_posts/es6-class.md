@@ -1,5 +1,5 @@
 ---
-title: es6-class
+title: Es6 Class
 date: 2019-12-26 14:18:21
 categories: es6
 tags:

@@ -1,5 +1,5 @@
 ---
-title: es6-map-set
+title: Es6 Map Set
 date: 2020-03-26 11:19:40
 categories: es6
 tags: es6
